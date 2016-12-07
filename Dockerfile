@@ -12,3 +12,4 @@ ENV eval "$(.rbenv/bin/rbenv init -)"
 RUN ~/.rbenv/bin/rbenv install 2.2.0
 RUN ~/.rbenv/bin/rbenv global 2.2.0
 RUN ~/.rbenv/shims/gem install sinatra
+CMD ["bin/bash"]
